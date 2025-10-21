@@ -1,1 +1,0 @@
-import{H as r}from"./index-8cecca46.js";function o(){return{login:t=>r.post("/login/",t),logout(){return r.post("/logout/",{})},register:t=>r.post("/register/",t),forgetPassword:t=>r.post("/forget-password/",t)}}const s=o();export{s as a};
