@@ -10,7 +10,24 @@
   <title>USTA - Admin & Dashboard Template</title>
 
   <script>const global = globalThis;</script>
-  <script type="module" crossorigin src="/assets/index-3f07c11f.js"></script>
+  <!-- Single Page Apps for GitHub Pages -->
+  <!-- https://github.com/rafgraph/spa-github-pages -->
+  <script>
+    // This script takes the current url and converts the path and query
+    // string into just a path portion (e.g. /apps/booking/123?foo=bar -> /apps/booking/123)
+    // then redirects to index.html with that path as a hash.
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { 
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
+  <script type="module" crossorigin src="/assets/index-313c439a.js"></script>
   <link rel="stylesheet" href="/assets/index-6054c063.css">
 </head>
 
