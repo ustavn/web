@@ -1,0 +1,1 @@
+import{r as t}from"./index-c947d73c.js";const e=typeof global<"u"&&global.navigator&&global.navigator.product==="ReactNative",o=typeof document<"u",c=o||e?t.useLayoutEffect:t.useEffect;export{c as u};
