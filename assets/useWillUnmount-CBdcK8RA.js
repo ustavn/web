@@ -1,0 +1,1 @@
+import{a as e}from"./chunk-BEqpzyXh.js";import{n as t}from"./jsx-runtime-iFSM2NCI.js";var n=e(t());function r(e){let t=(0,n.useRef)(e);return t.current=e,t}function i(e){let t=r(e);(0,n.useEffect)(()=>()=>t.current(),[])}export{i as t};
