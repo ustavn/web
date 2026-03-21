@@ -1,1 +1,0 @@
-import{a as e}from"./chunk-BEqpzyXh.js";import{n as t}from"./jsx-runtime-iFSM2NCI.js";var n=e(t()),r=e=>!e||typeof e==`function`?e:t=>{e.current=t};function i(e,t){let n=r(e),i=r(t);return e=>{n&&n(e),i&&i(e)}}function a(e,t){return(0,n.useMemo)(()=>i(e,t),[e,t])}export{a as t};
