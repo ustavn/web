@@ -1,0 +1,1 @@
+import{i as e,r as t}from"./api-CnBQK8kO.js";async function n(n){let r=new FormData;return r.append(`file`,n),e(await t.post(`/documents/upload`,r,{headers:{"Content-Type":`multipart/form-data`}}))}export{n as t};
