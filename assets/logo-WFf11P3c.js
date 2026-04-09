@@ -1,0 +1,1 @@
+var e=`/assets/logo-BxZj2u68.png`;export{e as t};
