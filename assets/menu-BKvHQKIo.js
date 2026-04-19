@@ -1,1 +1,0 @@
-import{n as e,t}from"./menu-items-B0h6swPu.js";var n=()=>e,r=()=>t,i=(e,t)=>{let n=[],r=a(e,t.parentKey);return r&&(n.push(r.key),r.parentKey&&(n=[...n,...i(e,r)])),n},a=(e,t)=>{if(e&&t)for(let n=0;n<e.length;n++){if(e[n].key===t)return e[n];let r=a(e[n].children,t);if(r)return r}return null};export{n as i,a as n,r,i as t};

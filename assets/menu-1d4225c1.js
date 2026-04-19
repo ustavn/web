@@ -1,0 +1,1 @@
+import{H as e,M as f}from"./menu-items-cd4f232a.js";const l=()=>f,M=()=>e,i=(t,a)=>{let r=[];const n=o(t,a.parentKey);return n&&(r.push(n.key),n.parentKey&&(r=[...r,...i(t,n)])),r},o=(t,a)=>{if(t&&a)for(let r=0;r<t.length;r++){if(t[r].key===a)return t[r];const n=o(t[r].children,a);if(n)return n}return null};export{i as a,M as b,o as f,l as g};

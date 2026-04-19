@@ -1,1 +1,0 @@
-import{i as e,r as t}from"./api-Du64Fl0F.js";async function n(n){let r=new FormData;return r.append(`file`,n),e(await t.post(`/documents/upload`,r,{headers:{"Content-Type":`multipart/form-data`}}))}export{n as t};
