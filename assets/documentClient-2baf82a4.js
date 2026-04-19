@@ -1,0 +1,1 @@
+import{a8 as e,a9 as n}from"./index-e1fd0acb.js";async function r(t){const a=new FormData;a.append("file",t);const o=await e.post("/documents/upload",a,{headers:{"Content-Type":"multipart/form-data"}});return n(o)}export{r as u};
