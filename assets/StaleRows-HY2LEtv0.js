@@ -1,0 +1,1 @@
+import{n as e}from"./react-cqNuXL_O.js";var t=e();function n({stale:e,label:n,children:r}){return(0,t.jsxs)(t.Fragment,{children:[e&&(0,t.jsx)(`span`,{className:`visually-hidden`,role:`status`,children:n}),(0,t.jsx)(`div`,{"data-testid":`stale-rows`,className:e?`opacity-50`:void 0,"aria-busy":e||void 0,inert:e,children:r})]})}export{n as t};
