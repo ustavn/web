@@ -1,1 +1,0 @@
-import{n as e}from"./api-D8vUZ61R.js";var t=1e3,n=1e3;function r(e){return e.trim().length}function i(e,t){return r(e)>t?`The reason must be at most ${t} characters.`:null}function a(t,n){let r=t instanceof e?t.errors?.[n]:void 0;return r&&r.length>0?r.join(` `):null}export{i as a,r as i,n,a as r,t};

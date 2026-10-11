@@ -1,1 +1,0 @@
-import{r as e}from"./reasonText-De1oEDmK.js";function t(e){return`The ${e} is required.`}function n(e){return!e||e.trim().length===0}function r(t,n){let r={};for(let i of n){let n=e(t,i);n&&(r[i]=n)}return Object.keys(r).length>0?r:null}export{r as n,t as r,n as t};
